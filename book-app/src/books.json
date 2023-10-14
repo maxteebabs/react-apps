@@ -1,0 +1,44 @@
+[
+    {
+      "author": "Peter Jackson",
+      "title": "Let the Poor breathe",
+      "country": "United Kingdom",
+      "language": "English",
+      "year": 2005
+    },
+    {
+      "author": "Chinua Achebe",
+      "title": "Things fall apart",
+      "country": "Nigeria",
+      "language": "English",
+      "year": 2010
+    },
+    {
+      "author": "Asake Flora",
+      "title": "Bonjour",
+      "country": "France",
+      "language": "French",
+      "year": 1998
+    },
+    {
+      "author": "Asake Flora!",
+      "title": "Mon amie",
+      "country": "France",
+      "language": "French",
+      "year": 1999
+    },
+    {
+      "author": "Chinua Achebe",
+      "title": "Who goes there",
+      "country": "Nigeria",
+      "language": "English",
+      "year": 1998
+    },
+    {
+      "author": "Jessical Laurence",
+      "title": "Prince Charles",
+      "country": "United Kingdom",
+      "language": "English",
+      "year": 2010
+    }
+  ]
