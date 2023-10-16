@@ -23,7 +23,7 @@ export default function App() {
     <div>
       <Header isSyncing={isSyncing} sync={sync} onFilter={onFilter} />
       {/* Do not edit test id in below div, it's added for testing purpose */}
-      <div data-testid='user-contact-list-wrapper'>
+      <div data-testid='user-contact-list-wrapper' className="contact-list">
         <UserContactList listId='page' contactList={currentPageList} />
       </div>
       <Paginator

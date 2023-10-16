@@ -1,4 +1,4 @@
-const UserContact = ({contact, id}) => {
+const UserContact = ({contact}) => {
   const formatPhone = (phone) => {
     if(phone.length >= 8 && phone.length < 14) {
       return phone;
@@ -11,7 +11,7 @@ const UserContact = ({contact, id}) => {
   }
 
   return (
-    <div id={id}>
+    <div>
       {isValidImage(contact.thumbnail) &&
       <img src={contact.thumbnail} alt={contact.name} />}
       <div>
