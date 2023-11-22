@@ -1,5 +1,5 @@
 import './App.css';
-import BookSearch from './components/Book/Books';
+import BookSearch from './components/BookSearch';
 import bookData from  "./books.json";
 
 function App() {

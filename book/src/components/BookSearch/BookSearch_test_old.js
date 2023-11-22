@@ -5,7 +5,6 @@ import Book from './Books';
 import books from  "../../books.json";
 
 beforeEach(() => {
-  // console.log('hello')
 });
 
 test('should test for search result text', () => {
@@ -15,7 +14,7 @@ test('should test for search result text', () => {
 });
 
 // const author = screen.getByTestId('author');
-// console.log('ccccccc', author)
+
 // test('should type author', () => {
 //   userEvent.type(author, 'Peter!');
 //   // userEvent.click(button)
