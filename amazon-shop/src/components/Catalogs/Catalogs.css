@@ -1,0 +1,95 @@
+.catalogs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+}
+
+.empty-catalogs {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.catalog {
+  flex-basis: 250px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  border: 1px solid #f5f5f5;
+  padding-bottom: 5px;
+}
+
+.catalog .img-wrapper {
+  display: inline-block;
+  overflow-y:  hidden;
+  height: 200px;
+}
+
+.catalog img {
+  width: 100%;
+  height: auto;
+}
+
+.catalog .sponsored {
+  font-size: 0.7rem;
+  color: #575959;
+  margin: 10px 0 5px;
+}
+
+.catalog .s-icon {
+  width: 11px;
+  height: 11px;
+}
+
+.catalog .title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.catalog .title:hover {
+  color: #ffa41c;
+}
+
+.catalog .ratings {
+  margin: 10px 0px;
+}
+
+.catalog .ratings span:first-child {
+  color: #ffa41c;
+}
+
+.catalog .ratings span:last-child {
+  font-weight: 500;
+}
+
+.catalog .pricing sup {
+  font-size: 1.1rem;
+}
+
+.catalog .pricing span {
+  display: inline-block;
+  margin-left: 3px;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.catalog .store-info {
+  font-size: 0.7rem;
+  line-height: 1.6rem;
+}
+
+.catalog .customer-info {
+  font-size: 0.9rem;
+  color: #b12805;
+  line-height: 1.6rem;
+}
+
+
